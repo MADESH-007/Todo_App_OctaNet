@@ -1,0 +1,35 @@
+.unchecked{
+    height: 45px;
+    width: 45px;
+}
+
+.cross{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    padding-right: 25px;
+
+}
+
+.todo-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 0px;
+    align-items: center;
+}
+
+.todo-items-container{
+    display: flex;
+}
+.todo-items-text{
+    margin-top: 8px;
+    padding-left: 16px;
+    color: #211951;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.line-through{
+    text-decoration: line-through solid 3.5px;
+    transform: translateY(-2px);
+}
